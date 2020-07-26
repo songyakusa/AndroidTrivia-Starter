@@ -26,6 +26,8 @@
                 android:name="com.example.android.navigation.TitleFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                app:navGraph="@navigation/navigation"
+                app:defaultNavHost="true"
                 />
 
             <!-- TODO (04) Add a fragment tag for the titleFragment in the LinearLayout
