@@ -100,11 +100,11 @@ class GameFragment : Fragment() {
                         binding.invalidateAll()
                     } else {
                         view.findNavController()
-                                .navigate(R.id.action_gameFragment_to_gameWonFragment)
+                                .navigate(GameFragmentDirections.actionGameFragmentToGameWonFragment())
                     }
                 } else {
-                    view.findNavController().
-                    navigate(R.id.action_gameFragment_to_gameOverFragment2)
+                    view.findNavController()
+                            .navigate(GameFragmentDirections.actionGameFragmentToGameOverFragment2())
                 }
             }
         }
